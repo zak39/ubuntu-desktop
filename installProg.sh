@@ -96,40 +96,6 @@ sudo apt-get install arc-flatabulous-theme
 
 echo *****************************************
 echo " "
-echo "Installation de f.lux (mettre un filtre rouge le soir)"
-echo " "
-echo *****************************************
-
-#sudo add-apt-repository ppa:nathan-renniewaldock/flux
-#sudo apt-get -y update
-#sudo apt-get install fluxgui
-
-echo *****************************************
-echo " "
-echo Copie des documents
-echo " "
-echo *****************************************
-
-#cp -r ./Documents/* ~/Documents/
-
-echo *****************************************
-echo " "
-echo Copie des Images
-echo " "
-echo *****************************************
-
-#cp -r ./Images ~/Images/*
-
-echo *****************************************
-echo " "
-echo Copie des Musiques
-echo " "
-echo *****************************************
-
-#cp -r ./Musiques ~/Musiques/*
-
-echo *****************************************
-echo " "
 echo Installation de flatpak
 echo " "
 echo *****************************************
