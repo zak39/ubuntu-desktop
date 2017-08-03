@@ -96,14 +96,6 @@ sudo apt-get install arc-flatabulous-theme
 
 echo *****************************************
 echo " "
-echo Installation de Packet Tracer version 7.0
-echo " "
-echo *****************************************
-
-#sudo bash ./PacketTracer70/install
-
-echo *****************************************
-echo " "
 echo "Installation de f.lux (mettre un filtre rouge le soir)"
 echo " "
 echo *****************************************
