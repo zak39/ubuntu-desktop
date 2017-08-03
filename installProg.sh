@@ -23,7 +23,7 @@ echo Installation logiciels administrations
 echo " "
 echo *****************************************
 
-sudo apt-get -y install screen vim htop wireshark evolution virtualbox curl git
+sudo apt-get -y install screen vim htop wireshark evolution virtualbox curl git jq vagrant # Le programme jq permet d'avoir un format json apres une requete
 
 echo *****************************************
 echo " "
