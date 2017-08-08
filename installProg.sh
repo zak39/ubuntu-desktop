@@ -16,6 +16,7 @@ echo *****************************************
 
 sudo apt-get -y install unity-tweak-tool vlc clementine synaptic chromium-browser caffeine calibre plank mumble redshift redshift-gtk gcolor2 steam inkscape
 sudo apt-get install -f -y # Petit raffraichissement dans l'installation des dépendances
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -23,7 +24,8 @@ echo Installation logiciels administrations
 echo " "
 echo *****************************************
 
-sudo apt-get -y install screen vim htop wireshark evolution virtualbox curl git jq vagrant # Le programme jq permet d'avoir un format json apres une requete
+sudo apt-get -y install screen vim htop wireshark evolution virtualbox curl git jq vagrant atom # Le programme jq permet d'avoir un format json apres une requete
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -35,6 +37,7 @@ sudo apt-get install software-properties-common -y
 sudo apt-add-repository ppa:/ansible/ansible -y
 sudo apt-get update -y
 sudo apt-get install ansible -y
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -53,6 +56,9 @@ sudo apt-get -y update
 
 # 4. Install Spotify
 sudo apt-get -y install spotify-client
+
+# 5. Update system
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -73,7 +79,6 @@ echo *****************************************
 sudo add-apt-repository ppa:oranchelo/oranchelo-icon-theme -y
 sudo apt-get update -y && sudo apt-get install oranchelo-icon-theme -y
 
-
 echo *****************************************
 echo " "
 echo Installation du thème numix-gtk
@@ -83,6 +88,7 @@ echo *****************************************
 sudo apt-add-repository ppa:numix/ppa -y
 sudo apt-get -y update
 sudo apt-get -y install numix-gtk-theme
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -125,7 +131,7 @@ echo " "
 echo *****************************************
 
 flatpak install http://feedreader.xarbit.net/feedreader-repo/feedreader.flatpakref -y
-
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -151,6 +157,7 @@ echo *****************************************
 
 sudo dpkg -i -y *.deb
 cd ~
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -160,6 +167,7 @@ echo *****************************************
 
 git clone https://github.com/nauzethc/sublime-text-numix "Numix Theme"
 mv "Numix Theme" .config/sublime-text-3/Packages/
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
@@ -198,6 +206,7 @@ echo " "
 echo *****************************************
 
 sudo apt install gnome-control-center gnome-online-accounts -y
+sudo apt-get -y update; sudo apt-get -y upgrade
 
 echo *****************************************
 echo " "
