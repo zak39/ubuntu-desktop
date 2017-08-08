@@ -94,6 +94,19 @@ sudo add-apt-repository ppa:noobslab/themes -y
 sudo apt-get -y update
 sudo apt-get install arc-flatabulous-theme
 
+echo ********************************************************************
+echo " "
+echo " "
+echo Installation de google-chrome-stable depuis les depots de google
+echo " "
+echo "Si cela ne marche pas, voici l'url pour plus d'informations : https://www.google.com/linuxrepositories/"
+echo " "
+echo ********************************************************************
+
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt-get update -y; sudo apt-get upgrade -y
+sudo apt-get install -y google-chrome-stable
+
 echo *****************************************
 echo " "
 echo Installation de flatpak
